@@ -1667,8 +1667,8 @@ bitcoinjs.bitcoin.networks.bitcoinroyale = {
     public: 0x0488b21e,
     private: 0x0488ade4
   },
-  pubKeyHash: 0x3c,
-  scriptHash: 0x4e,
+  pubKeyHash: 0x4e,
+  scriptHash: 0x3c,
   wif: 0x80
 };
 

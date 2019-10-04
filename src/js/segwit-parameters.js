@@ -271,8 +271,8 @@ bitcoinjs.bitcoin.networks.bitcoinroyale.p2wpkh = {
         public: 0x04b24746,
         private: 0x04b2430c
     },
-    pubKeyHash: 0x3c,
-    scriptHash: 0x4e,
+    pubKeyHash: 0x4e,
+    scriptHash: 0x3c,
     wif: 0x80,
 };
 
@@ -284,8 +284,8 @@ bitcoinjs.bitcoin.networks.bitcoinroyale.p2wpkhInP2sh = {
         public: 0x049d7cb2,
         private: 0x049d7878
     },
-    pubKeyHash: 0x3c,
-    scriptHash: 0x4e,
+    pubKeyHash: 0x4e,
+    scriptHash: 0x3c,
     wif: 0x80,
 };
 
