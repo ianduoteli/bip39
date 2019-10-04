@@ -1661,6 +1661,17 @@ bitcoinjs.bitcoin.networks.cpuchain = {
     wif: 0x80,
 };
 
+bitcoinjs.bitcoin.networks.bitcoinroyale = {
+  messagePrefix: 'x18BitcoinRoyale Signed Message:\n',
+  bip32: {
+    public: 0x0488b21e,
+    private: 0x0488ade4
+  },
+  pubKeyHash: 0x3c,
+  scriptHash: 0x4e,
+  wif: 0x80
+};
+
 bitcoinjs.bitcoin.networks.wagerr = {
   messagePrefix: 'unused',
   bip32: {

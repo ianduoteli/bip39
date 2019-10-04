@@ -263,6 +263,32 @@ bitcoinjs.bitcoin.networks.cpuchain.p2wpkhInP2sh = {
     wif: 0x80,
 };
 
+bitcoinjs.bitcoin.networks.bitcoinroyale.p2wpkh = {
+    baseNetwork: "bitcoinroyale",
+    messagePrefix: '\x1DBitcoinRoyale Signed Message:\n',
+    bech32: 'royale',
+    bip32: {
+        public: 0x04b24746,
+        private: 0x04b2430c
+    },
+    pubKeyHash: 0x3c,
+    scriptHash: 0x4e,
+    wif: 0x80,
+};
+
+bitcoinjs.bitcoin.networks.bitcoinroyale.p2wpkhInP2sh = {
+    baseNetwork: "bitcoinroyale",
+    messagePrefix: '\x1DBitcoinRoyale Signed Message:\n',
+    bech32: 'royale',
+    bip32: {
+        public: 0x049d7cb2,
+        private: 0x049d7878
+    },
+    pubKeyHash: 0x3c,
+    scriptHash: 0x4e,
+    wif: 0x80,
+};
+
 bitcoinjs.bitcoin.networks.groestlcoin.p2wpkh = {
     baseNetwork: "groestlcoin",
     messagePrefix: '\x19GroestlCoin Signed Message:\n',

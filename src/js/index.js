@@ -1980,6 +1980,13 @@
             },
         },
         {
+            name: "BTCR - Bitcoin Royale",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.bitcoinroyale;
+                setHdCoin(440);
+            },
+        },
+        {
             name: "BTX - Bitcore",
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.bitcore;
